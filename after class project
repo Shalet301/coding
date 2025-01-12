@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            
+          background-repeat:no-reapeat;
+          background-color:white;
+          background-image:url("tamioka.jpeg");
+          background-position:top left;
+        }
+        @keyframes backgroundchange{
+  0% {
+    background-color: orange;
+}  
+25% {
+    background-color: yellow;
+}
+50% {
+    background-color: blue;
+}
+100% {
+    background-color: white;
+}
+}
+
+    animated-background{
+    width: 200px;
+    height: 200px;   
+    }
+        
+    </style>
+</head>
+<body>
+   loading..  
+  <h1>Anime choice form</h1> 
+  <form>
+    <fieldset>
+        <legend>anime lists </legend>
+     <search><label>anime name</label></search>
+<input type="anime name" id="anime"><br><br>
+<label>producer of the anime</label><br>
+<input required type="producer/viewer" id="anime producers/viewer"> <br><br>
+<label>sub/dub</label><br>
+ <input type="radio" id="sub" name="sub" value="sub">sub<br>
+ <input type="radio" id="dub" name="sub" value="dub">dub<br>
+<label><em><b>what are you</b></em><br></label>
+<input type="radio" id="anime viewer" name="anime viewer" value="anime viewer">anime viewer<br>
+<input type="radio" id="anime producer" name="anime viewer" value="anime producer">anime producer<br>
+<label>favourite anime</label><br>
+<input type="radio" id="jujustu kaisen" name="demon slayer"value="jujustu kaisen">jujustu kaisen<br>
+<input type="radio" id="demon slayer"  name="demon slayer"value="demon slayer">demon slayer <br>
+<label><b>terms and conditons</b></label><br>
+<input type="radio" id="do you agree to our terms and conditions"name="do you agree to our terms and conditions" value="do you agree to our terms and conditions">do you agree to our terms and conditions<br>
+<input type="radio" id="do you not agree to our terms and conditions"name="do you agree to our terms and conditions" value="do you not agree to our terms and conditions">do you not agree terms and conditions<br>
+<label>sign in with</label> 
+<ul>
+    <li> <a href="#Email">Email</a></li>
+    <li> <a href="#facebook">facebook</a></li>
+    <li> <a href="#appleaccount">apple account</a></li>
+ </ul>
+ <label><i>enter you Email adrress/facebook account/apple  account</i></label>
+ <input required type="Email" id="anime"><br>
+ <lable><b>enter your password here</b></lable><br>
+ <input type required="password" id="anime"><br>
+ <lable><b>confirm your password</b></lable><br>
+<input type require="password" id="anime"><br>
+ <input type="submit" value="sign in"><br>
+ <input type="submit" value="next"><br>
+
+
+ <title>Form 2</title>
+ <form>
+    <fieldset>
+        <legend><h2>further information</h2></legend>
+        <p>are you above the age of 13</p>
+        <input type="radio" id="yes"name="yes" value="yes">yes<br>
+        <input type="radio" id="no"name="yes"value="no">no<br>
+        <p>are you new to anime</p>
+        <input type="radio" id="yes" name="yes" value="no">yes<br>
+        <input type="radio" id="no" name="yes" value="no">no<br>
+        <p>what anime are you going to start watching today</p>
+        <label>type in the anime's title</label>
+        <input type required="text" id="anime"><br>
+<video controls width="300" height="300">
+    <source src="Download.mp4"type="video/mp4">
+</video><br>        
+<audio control>
+    <source src=""type="">
+</audio>
+        </fieldset>
+ </form>
+ </fieldset>
+ </form> 
+ </body>
+ <style>
+@keyframes backgroundchange{
+  0% {
+    background-color: red;
+}  
+25% {
+    background-color: yellow;
+}
+50% {
+    background-color: blue;
+}
+100% {
+    background-color: white;
+}
+}
+
+    animated-background{
+    width: 200px;
+    height: 200px;   
+    }
+ </style>
+   </head>
+   <body>
+    <div class="animated background"></div>
+   </body>
+  </html> 
+
+
+
+

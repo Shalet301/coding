@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typography</title>
+    <style>
+        body{
+            background-color:blue;
+        }
+        .paragraph{
+            font-size:40px;
+            color:aqua;
+        }
+        #paragrph{
+            font-family: 'Times New Roman', Times, serif;
+            color:aquamarine;
+            text-decoration:underline;
+        }
+        h1{
+            text-decoration:overline;
+            text-transform:capitalize;
+        }
+        h2{ 
+            text-decoration:line-through;
+            text-transform:uppercase;  
+        }
+        h3{
+            text-decoration:underline;
+            text-transform:uppercase;
+        }
+        h4{
+            text-decoration:underline overline;
+            text-transform:none;
+        }
+        .after{
+            text-shadow: 2px 4px 6px aquamarine;
+            box-shadow:2px 4px 6px yellow;
+            color:burlywood
+
+        }
+        .title{
+            color:beige
+        }
+    </style>
+</head>
+<body>;
+    <H1 class="title">Typography</H1>
+    <p class="paragraph">this is an example of a paragraph</p>
+    <p id="paragraph">tags in html</p>
+    <h1>code</h1>
+    <h2>code</h2>
+    <h3>code</h3>
+    <h4>code</h4>
+    <h1 class="after">this is an example</h1>
+</body>
