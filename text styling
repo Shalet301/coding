@@ -36,11 +36,11 @@
         .after{
             text-shadow: 2px 4px 6px aquamarine;
             box-shadow:2px 4px 6px yellow;
-            color:burlywood
+            color:burlywood;
 
         }
         .title{
-            color:beige
+            color:beige;
         }
     </style>
 </head>
